@@ -33,3 +33,22 @@ puts "2 bottles of beer on the wall, 2 bottles of beer!"
 puts "Take one down, pass it around, 1 bottle of beer on the wall!"
 puts "1 bottle of beer on the wall, 1 bottle of beer!"
 puts "Take one down, pass it around, no more bottles of beer on the wall!"
+
+
+puts 'HI SONNY HOW ARE YA?'
+ while true	
+	said = gets.chomp
+	
+		if said == "BYE"
+			puts 'BYE HOONIE'
+			break
+		end
+
+		if said != said.upcase
+			puts 'HUH?! I CAN\'T HEAR YOU!'
+		else
+			random_year = 1930 + rand(21)
+			puts 'NO, NOT SINCE ' + random_year.to_s + '!'
+		end
+	end
+
